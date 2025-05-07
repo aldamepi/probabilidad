@@ -547,7 +547,7 @@ $\FunGenMom''(0)=\mu^2+\sigma^2=E\left(X^2\right)$, tal como ya sabemos.
 
 Para $n=3$m obtenemos:
 $\FunGenMom'''(t)=e^{\mu  t+\frac{\sigma ^2 t^2}{2}}\left(\mu +\sigma ^2 t\right)
-\left(\left(\mu +\sigma ^2 t\right)^2+3 \sigma ^2\right)$, que en $t=0$ vale: $\FunGenMom'''(0)=3\sigma^2\mu = E\left(X^3\right)$, valor que correspondería al momento de tercer orden de $X$.
+\left(\left(\mu +\sigma ^2 t\right)^2+3 \sigma ^2\right)$, que en $t=0$ vale: $\FunGenMom'''(0)= \mu^3 + 3\sigma^2\mu = E\left(X^3\right)$, valor que correspondería al momento de tercer orden de $X$.
 
 Por último, para $n=4$, obtenemos:
 $\FunGenMom^{(iv)}(t)=e^{\mu  t+\frac{\sigma ^2 t^2}{2}}
@@ -693,7 +693,7 @@ Realizar los mismos ejemplos que los realizados para la función generatriz de m
 
 * Si $X$ es una variable exponencial de parámetro $\lambda$, demostrar usando la función característica que para todo $n$, $\momento_n =  E\left(X^n\right)=\frac{n!}{\lambda^n}$.
 
-* Si $X$ es una variable normal de parámetros $\mu$ y $\sigma$, demostrar usando la función característica que $E(X)=\mu$, $E\left(X^2\right)=\mu^2+\sigma^2$, $E\left(X^3\right)=3\sigma^2\mu$ y $E\left(X^4\right)=6\sigma^2\mu^2+\mu^4+3\sigma^4$.
+* Si $X$ es una variable normal de parámetros $\mu$ y $\sigma$, demostrar usando la función característica que $E(X)=\mu$, $E\left(X^2\right)=\mu^2+\sigma^2$, $E\left(X^3\right)=\mu^3 + 3\sigma^2\mu$ y $E\left(X^4\right)=6\sigma^2\mu^2+\mu^4+3\sigma^4$.
 
 
 </div>
